@@ -1,0 +1,10 @@
+__pycache__/
+data/
+databases/
+dbms/
+transactions/
+.conda/
+.env
+server_id/
+creds.txt
+inst.txt
