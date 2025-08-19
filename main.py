@@ -16,10 +16,6 @@ driver = GraphDatabase.driver(url, auth=(username, password))
 def main():
     start = input("What is the Starting Station: ").upper()
     end = input("What in the Ending Station: ").upper()
-    # print("what is the Time Property:")
-    # print("1. Unimpeded Time")
-    # print("2. AM Peak Time")
-    # print("3. Inter Peak Time")
 
     choose = get_value_by_time()
     if choose == 1:
